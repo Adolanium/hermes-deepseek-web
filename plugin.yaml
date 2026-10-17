@@ -1,0 +1,16 @@
+name: hermes-deepseek-web
+version: "0.1.0"
+description: "DeepSeek web backend: web_search through DeepSeek Search and web_extract through DeepSeek Fetch, both on api.deepseek.com with DEEPSEEK_API_KEY. Unofficial; not affiliated with DeepSeek."
+author: Adolanium
+license: MIT
+homepage: https://github.com/Adolanium/hermes-deepseek-web
+manifest_version: 1
+kind: backend
+requires_hermes: ">=0.21.6"
+provides_web_providers:
+  - deepseek
+requires_env:
+  - name: DEEPSEEK_API_KEY
+    description: "DeepSeek API key, the same one Hermes uses for DeepSeek models. Required for both search and extract."
+    url: https://platform.deepseek.com/api_keys
+    secret: true
