@@ -19,6 +19,8 @@
 
 </div>
 
+![A marble Hermes lowers a line into deep water and pulls up a search-result window beside a fetched page](assets/catalog-banner.png)
+
 ## Powered by Hermes
 
 Hermes DeepSeek Web is a community-built web backend for [Hermes Agent](https://github.com/NousResearch/hermes-agent). It adds no tools of its own. It registers a provider named `deepseek` through Hermes's web provider API, so the agent keeps calling `web_search` and `web_extract` exactly as before, and Hermes routes those calls to DeepSeek when you choose it.
